@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: yadtq
+Version: 1.0.0
+Requires-Dist: kafka-python
+Requires-Dist: redis
