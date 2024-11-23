@@ -32,11 +32,18 @@ Yet Another Distributed Task Queue<br>
 ### How to Run the Project
 #### Install Dependencies:
 1. Ensure all requirements are installed:
-`pip install -r requirements.txt`<br>
-`pip install -e . `<br>
-2. Run the GUI:
+ ```bash 
+pip install -r requirements.txt
+
+```
+```bash 
+pip install -e . 
+```
+3. Run the GUI:
 Start the application:<br>
-`python gui.py`<br>
+``` bash
+python gui.py
+```
 *(Use python3 gui.py if required by your environment.)*
 ### Interact with the System:
 1. Start Workers:
@@ -57,3 +64,4 @@ Start the application:<br>
 - Monitoring and Reporting : Develop a comprehensive monitoring service
 - Logging
 - Expand monitoring features in the GUI.
+
